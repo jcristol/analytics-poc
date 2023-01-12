@@ -9,19 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@amplitude/analytics-browser": "^1.6.8",
+    "@fullstory/browser": "^1.6.2",
     "next": "^13.1.1",
+    "posthog-js": "^1.39.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ui": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "eslint": "7.32.0",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
     "typescript": "^4.5.3"
   }
 }
